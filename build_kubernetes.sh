@@ -21,6 +21,7 @@ make
 ## Copy hyperkube to /
 ls
 cp ./_output/local/bin/linux/amd64/hyperkube /
+cp ./_output/local/bin/linux/amd64/kubectl /
 
 ## Cleanup to reduce the size
 rm -rf /tmp/*
