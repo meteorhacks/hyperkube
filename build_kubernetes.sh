@@ -3,6 +3,9 @@ apt-get update
 apt-get install -y build-essential wget rsync ca-certificates
 update-ca-certificates
 
+## Install iptables
+apt-get install -y iptables
+
 cd /tmp
 
 ## Install Golang
